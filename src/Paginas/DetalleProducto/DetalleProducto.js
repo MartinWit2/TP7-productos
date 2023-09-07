@@ -1,7 +1,9 @@
 import React from "react";
+import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
 
-const DetalleProducto = ({ match }) => {
-  const { id } = match.params;
+
+const DetalleProducto = ({  }) => {
+  const { id } = useParams(); 
 
   const producto = {
     id: 1,

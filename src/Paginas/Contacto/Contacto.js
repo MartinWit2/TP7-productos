@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 const Contacto = () => {
   return (
     <div>
-      <h1>Contacto</h1>
+      <h1>Acá te vas a poder contactar con el soporte para resolver problemas</h1>
       <Form>
         <Form.Group className="mb-3" controlId="formName">
           <Form.Label>Nombre</Form.Label>
